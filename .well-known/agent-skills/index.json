@@ -1,0 +1,61 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "apidog-cli",
+      "type": "skill-md",
+      "description": "Apidog Cli Skill",
+      "url": "https://apidog.com/.well-known/agent-skills/apidog-cli/SKILL.md",
+      "digest": "sha256:49696a618a4d330837228e8093666ca407444d43491f231b024afb9679b870ff"
+    },
+    {
+      "name": "apidog-test-case",
+      "type": "skill-md",
+      "description": "Apidog API test cases: test-case, test-data, test steps, assertions, variable extraction, processors, categories, direct runs, and scenario import boundaries.",
+      "url": "https://apidog.com/.well-known/agent-skills/apidog-test-case/SKILL.md",
+      "digest": "sha256:ce622d71a6479230a4136096dcc71a1c161e329cab00b3fda0e6099668b64247"
+    },
+    {
+      "name": "apidog-test-automation",
+      "type": "skill-md",
+      "description": "Apidog test automation, suites, and CI: test-suite, scheduled-task, runner, apidog run, execution parameters, report upload, and CI regression.",
+      "url": "https://apidog.com/.well-known/agent-skills/apidog-test-automation/SKILL.md",
+      "digest": "sha256:8afaf2ffd67b5ba8ca40f7dac7f8cf9e826287582c21325331ca2812698f8e5f"
+    },
+    {
+      "name": "apidog-test-scenario",
+      "type": "skill-md",
+      "description": "Apidog test scenario modeling: import endpoint/test-case/other scenario steps, add scenario references, orchestrate complex steps, variables, pre/post actions, and debugging flows.",
+      "url": "https://apidog.com/.well-known/agent-skills/apidog-test-scenario/SKILL.md",
+      "digest": "sha256:29bd6af483e8fe22ac9039d330d4de8d5150784fc3441ee3919b4a19e35cba84"
+    },
+    {
+      "name": "apidog-branch",
+      "type": "skill-md",
+      "description": "Apidog branch collaboration: regular branches, sprint branches, AI branches, pick-to, merge, merge-request, protected branches, and AI write permissions.",
+      "url": "https://apidog.com/.well-known/agent-skills/apidog-branch/SKILL.md",
+      "digest": "sha256:e45bf6d90b370dc69ff57fb0c30c20998d6765bb43ccc4ad59b847c2e075fa31"
+    },
+    {
+      "name": "apidog-cli-checkup",
+      "type": "skill-md",
+      "description": "Apidog CLI usage check and version confirmation: use when successful commands are not visible in the client, created resources cannot be found, runs fail, reports are missing, help/hints disagree, or the local CLI is outdated.",
+      "url": "https://apidog.com/.well-known/agent-skills/apidog-cli-checkup/SKILL.md",
+      "digest": "sha256:ad03ab14079e9667d073ad8742bd72633c18fbeb3381c979c152de5607048187"
+    },
+    {
+      "name": "apidog-import-export",
+      "type": "skill-md",
+      "description": "Apidog import/export: OpenAPI, Postman, Swagger, and Apidog native project imports/exports, spec quality gates, folder grouping, and import result verification.",
+      "url": "https://apidog.com/.well-known/agent-skills/apidog-import-export/SKILL.md",
+      "digest": "sha256:10326e8a2a8f157521b072fdab989f74b3bcc9e6786afafa2652fdc8583001a0"
+    },
+    {
+      "name": "apidog-workflow-api-lifecycle",
+      "type": "skill-md",
+      "description": "Apidog API lifecycle workflow: from requirements to API design, schemas, environments, mocks, test cases, documentation export/publishing, and branch merge.",
+      "url": "https://apidog.com/.well-known/agent-skills/apidog-workflow-api-lifecycle/SKILL.md",
+      "digest": "sha256:0d7ecb20c01f7994de96d0afa3c640d4184c76961e1a0250e74288c7e8f4f1ad"
+    }
+  ]
+}
