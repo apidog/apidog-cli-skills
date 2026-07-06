@@ -1,6 +1,6 @@
 # Apidog CLI Skills
 
-This repository hosts AI Agent Skills for Apidog CLI. These skills help AI agents use Apidog CLI correctly for project resource management, API design, test modeling, automation, import/export, and branch collaboration.
+Apidog CLI AI Agent Skills help AI agents use Apidog CLI correctly for project resource management, API design, test modeling, automation, import/export, and branch collaboration.
 
 ## Installation
 
