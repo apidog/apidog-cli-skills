@@ -7,13 +7,15 @@ Apidog CLI AI Agent Skills help AI agents use Apidog CLI correctly for project r
 Recommended installation with the `skills` CLI:
 
 ```bash
-npx -y skills add https://github.com/apidog/apidog-cli-skills -y
+npx -y skills add https://github.com/apidog/apidog-cli-skills
 ```
+
+This command starts an interactive flow where you can choose the Skills, target AI Agent, and installation scope.
 
 You can also install from the Apidog official site:
 
 ```bash
-npx -y skills add https://apidog.com -y
+npx -y skills add https://apidog.com
 ```
 
 After installation, list installed skills:

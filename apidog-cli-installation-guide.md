@@ -88,13 +88,15 @@ apidog environment list --project <PROJECT_ID>
 Install the Apidog AI Agent Skills so the AI Agent knows how to use Apidog CLI correctly:
 
 ```bash
-npx -y skills add https://apidog.com -y
+npx -y skills add https://apidog.com
 ```
+
+This command starts an interactive flow where you can choose the Skills, target AI Agent, and installation scope.
 
 Or install from the GitHub repository:
 
 ```bash
-npx -y skills add https://github.com/apidog/apidog-cli-skills -y
+npx -y skills add https://github.com/apidog/apidog-cli-skills
 ```
 
 If the current environment cannot access the official installation source, manually install Apidog AI Agent Skills according to your AI Agent's rules. Use `WebFetch` to fetch https://apidog.com/.well-known/agent-skills/index.json, then download and install the required `SKILL.md` files from the `url` fields. Installing all 8 skills is recommended; at minimum, install `apidog-cli`.
